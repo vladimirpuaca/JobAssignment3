@@ -19,8 +19,9 @@ public class Task1Tests extends BaseFile {
     }
 
     @Test (priority = 10)
-    public void basicDialogueBoxTest() {
+    public void basicDialogueBoxTest() throws InterruptedException {
         Assert.assertEquals(driver.getCurrentUrl(),dialoguePage.urlDialoguePage);
+        Thread.sleep(2000);
         Assert.assertTrue(elementIsPresent((dialoguePage.dialogueBox)));
     }
     @Test (priority = 20)

@@ -14,23 +14,22 @@ public class DialoguePage extends BaseFile {
     public String textOfDBquestion = "Are you sure you want to continue?";
     public String textOfModalMinimizeButton = "Minimize";
     public String textOfModalMaximizeButton = "Maximize";
-    public String textOfModalRestoreButton = "Restore";
+
     public String textOfModalCloseButton = "Close";
     public String textOfModalContent = "Additional info";
     public String yesBtnBGcolor = "rgba(255, 99, 88, 1)";
     @FindBy(css = "button.k-button.k-button-md.k-rounded-md.k-button-solid-base.k-button-solid")
     public WebElement openDialogueButton;
-
-    @FindBy(css = "div.k-window.k-dialog.ng-tns-c2483932256-0")
+    @FindBy(xpath = "/html/body/app-root/my-app/my-dialogs/div/kendo-dialog/div[2]")
     public WebElement dialogueBox;
 
     @FindBy(css = ".k-window-title.k-dialog-title")
     public WebElement dialogueBoxTittle;
 
-    @FindBy(css = "body > app-root > my-app > my-dialogs > div > kendo-dialog > div.k-window.k-dialog.ng-tns-c2483932256-0 > kendo-dialog-titlebar > div > button")
+    @FindBy(xpath = "/html/body/app-root/my-app/my-dialogs/div/kendo-dialog/div[2]/kendo-dialog-titlebar/div/button")
     public WebElement dialogueBoxCloseButton;
 
-    @FindBy(css = "p.ng-tns-c2483932256-0")
+    @FindBy(xpath = "/html/body/app-root/my-app/my-dialogs/div/kendo-dialog/div[2]/div/p")
     public WebElement dialogueBoxQuestion;
 
     @FindBy(css = ".k-button-solid-base")
@@ -44,23 +43,15 @@ public class DialoguePage extends BaseFile {
 
     @FindBy(className = "k-window")
     public WebElement modal;
-
-    @FindBy(id = "kendo-window-title-276215")
-    public WebElement modalTittleBar;
     @FindBy(xpath = "/html/body/app-root/my-app/my-dialogs/div/kendo-window/kendo-window-titlebar/div/button[1]")
     public WebElement modalMinimizeButton;
     @FindBy(xpath = "/html/body/app-root/my-app/my-dialogs/div/kendo-window/kendo-window-titlebar/div/button[2]")
     public WebElement modalMaximizeButton;
-    @FindBy(xpath = "/html/body/app-root/my-app/my-dialogs/div/kendo-window/kendo-window-titlebar/div/button[3]" )
-    public WebElement modalRestoreButton;
-
     @FindBy(xpath = "/html/body/app-root/my-app/my-dialogs/div/kendo-window/kendo-window-titlebar/div/button[4]")
     public WebElement modalCloseButton;
     @FindBy(className = "k-window-content")
     public WebElement modalContent;
 
-    @FindBy (xpath = "/html/body/app-root/my-app/div/div[1]/kendo-label/kendo-autocomplete")
-    public WebElement textBox;
 
     /*---------Methods-------*/
     public void goToDialoguePage() {

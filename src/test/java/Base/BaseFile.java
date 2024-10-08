@@ -55,28 +55,11 @@ public class BaseFile {
         }
         return true;
     }
-    public void printTextOfElementsList(List<WebElement> listOfElements) {
-        for (WebElement element:listOfElements) {
-            System.out.print(element.getText());
-            System.out.println();
-        }
-    }
-    public void printTextofElementsList2(List<WebElement> listOfElements) {
-        for (int i = 0; i < listOfElements.size(); i++) {
-            System.out.println("Element: "+ (i+1)+ " ");
-            System.out.println("Accessible Name:" +listOfElements.get(i).getAccessibleName());
-            System.out.println("Class Name:" + listOfElements.get(i).getClass());
-            System.out.println("Tag Name:" + listOfElements.get(i).getTagName());
-            System.out.println("Get Text:" + listOfElements.get(i).getText());
-            System.out.println();
-        }
-    }
 
     public List<String> makeStringListFromElementsAccessibleNames(List<WebElement> listofElements) {
         List<String> newStringlist = new ArrayList<>();
         for (int i = 0; i < listofElements.size(); i++) {
             String returnedString = listofElements.get(i).getAccessibleName();
-
             String trimmedString =returnedString.substring(1);
             newStringlist.add(trimmedString);
         }
