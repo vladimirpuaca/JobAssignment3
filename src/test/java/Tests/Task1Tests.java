@@ -51,7 +51,7 @@ public class Task1Tests extends BaseFile {
         Assert.assertEquals(dialoguePage.dialogueBoxYesButton.getCssValue("background-color"),dialoguePage.yesBtnBGcolor);
     }
     @Test (priority =70)
-    public void verifyFocusOnCloseBtn() throws InterruptedException {
+    public void verifyFocusOnCloseBtn() {
         Assert.assertNotEquals(driver.switchTo().activeElement(), dialoguePage.dialogueBoxCloseButton);
         dialoguePage.dialogueBoxCloseButton.sendKeys("");
         Assert.assertEquals(driver.switchTo().activeElement(), dialoguePage.dialogueBoxCloseButton);
@@ -65,7 +65,7 @@ public class Task1Tests extends BaseFile {
 
 
     @AfterClass
-    public void testTearDown() throws InterruptedException {
+    public void testTearDown() {
         driver.quit();
     }
 }

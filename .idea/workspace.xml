@@ -4,18 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc0f08d8-1a81-4ed5-9cc8-9669cddacf90" name="Changes" comment="FirstCommitOfNewProject">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Base/ExcelReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/BoxesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/TablePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/Task2Tests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/Task3Tests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/Task4Tests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Employees.xlsx" afterDir="false" />
+    <list default="true" id="cc0f08d8-1a81-4ed5-9cc8-9669cddacf90" name="Changes" comment="Task5Done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Base/BaseFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/BaseFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/DialoguePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/DialoguePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/BoxesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/BoxesPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Tests/Task1Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/Task1Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/Task2Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/Task2Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/Task3Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/Task3Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/Task4Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/Task4Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/Task5Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/Task5Tests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,17 +49,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\IT Bootcamp - QA\JobAssignment3\src\test\resources" />
@@ -73,24 +70,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Task4Tests">
-    <configuration name="Task1Tests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="JobAssignment3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.Task1Tests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Task5Tests">
     <configuration name="Task2Tests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JobAssignment3" />
       <extension name="coverage">
@@ -160,13 +140,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task5Tests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JobAssignment3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.Task5Tests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Task5Tests" />
         <item itemvalue="TestNG.Task4Tests" />
         <item itemvalue="TestNG.Task3Tests" />
         <item itemvalue="TestNG.Task4Tests.autoCompleteInputField" />
         <item itemvalue="TestNG.Task2Tests" />
-        <item itemvalue="TestNG.Task1Tests" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1728135848709</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Task4Done">
+      <created>1728249914701</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728249914701</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -219,6 +223,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="FirstCommitOfNewProject" />
-    <option name="LAST_COMMIT_MESSAGE" value="FirstCommitOfNewProject" />
+    <MESSAGE value="Task4Done" />
+    <MESSAGE value="Task5Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task5Done" />
   </component>
 </project>

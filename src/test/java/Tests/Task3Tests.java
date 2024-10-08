@@ -1,7 +1,6 @@
 package Tests;
 
 import Base.BaseFile;
-import Base.ExcelReader;
 import Pages.TablePage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -11,9 +10,6 @@ import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-
-import java.io.IOException;
-import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -42,7 +38,7 @@ public class Task3Tests extends BaseFile {
     }
 
     @Test(priority = 30)
-    public void exportingAmericanOnlineEmployees() throws InterruptedException, IOException {
+    public void exportingAmericanOnlineEmployees() {
         filteringforOnlineEmployees();
         tablePage.exportToExcelButton.click();
     }

@@ -48,8 +48,7 @@ public class Task2Tests extends BaseFile {
         Assert.assertFalse(elementIsPresent(dialoguePage.modalCloseButton));
     }
     @AfterClass
-    public void tearDown() throws InterruptedException {
-        Thread.sleep(1000);
+    public void tearDown() {
         driver.quit();
     }
 }
